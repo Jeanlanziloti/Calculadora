@@ -6,7 +6,7 @@ class Calculadora
 		n1 + n2
 	end
 
-	def primos(numero)
+	def primo(numero)
 		contador = 0;
 		
 		(1..numero).each do |n|
