@@ -2,7 +2,7 @@
 
 class Calculadora
 
-	def	soma(n1, n2)
+	def	soma(n1, n2)	
 		n1 + n2
 	end
 
@@ -19,6 +19,7 @@ class Calculadora
 			"#{numero} é número primo"
 		else
 			"#{numero} não é número primo"
+			puts "TESTE!!!"
 		end
 	end
 
